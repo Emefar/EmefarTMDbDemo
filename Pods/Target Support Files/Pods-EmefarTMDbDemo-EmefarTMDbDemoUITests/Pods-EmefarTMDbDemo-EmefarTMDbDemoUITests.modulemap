@@ -1,0 +1,6 @@
+framework module Pods_EmefarTMDbDemo_EmefarTMDbDemoUITests {
+  umbrella header "Pods-EmefarTMDbDemo-EmefarTMDbDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
