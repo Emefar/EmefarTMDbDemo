@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070DF62527E10A5B00DDD36E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF62427E10A5B00DDD36E /* String+Extensions.swift */; };
+		070DF62727E10A7600DDD36E /* Lottie+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF62627E10A7600DDD36E /* Lottie+Extensions.swift */; };
+		070DF62927E10AA100DDD36E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF62827E10AA100DDD36E /* UIViewController+Extensions.swift */; };
+		070DF62B27E10AB700DDD36E /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF62A27E10AB700DDD36E /* UIImageView+Extensions.swift */; };
+		070DF62D27E10AD800DDD36E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF62C27E10AD800DDD36E /* UITableView+Extensions.swift */; };
 		4C203FC9224B9F1C0074BF43 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C203FC7224B9F1C0074BF43 /* MovieViewCell.swift */; };
 		4C203FCA224B9F1C0074BF43 /* MovieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C203FC8224B9F1C0074BF43 /* MovieViewCell.xib */; };
 		4C203FCC224BA9DF0074BF43 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C203FCB224BA9DF0074BF43 /* MovieViewController.swift */; };
 		4C2315E7224A1E9C00F64090 /* AppURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2315E6224A1E9C00F64090 /* AppURL.swift */; };
 		4C24FB40223F934F00492D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24FB3F223F934F00492D46 /* AppDelegate.swift */; };
-		4C24FB42223F934F00492D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24FB41223F934F00492D46 /* ViewController.swift */; };
 		4C24FB45223F934F00492D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C24FB43223F934F00492D46 /* Main.storyboard */; };
 		4C24FB47223F935600492D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C24FB46223F935600492D46 /* Assets.xcassets */; };
 		4C24FB4A223F935600492D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C24FB48223F935600492D46 /* LaunchScreen.storyboard */; };
-		4C24FB55223F935600492D46 /* EmefarTMDbDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24FB54223F935600492D46 /* EmefarTMDbDemoTests.swift */; };
-		4C24FB60223F935600492D46 /* EmefarTMDbDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24FB5F223F935600492D46 /* EmefarTMDbDemoUITests.swift */; };
 		4C298B2522423C520089B67F /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C298B2422423C520089B67F /* MovieViewModel.swift */; };
 		4C298B3C2242685D0089B67F /* MovieAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C298B3B2242685D0089B67F /* MovieAPIService.swift */; };
 		4C298B422242692E0089B67F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C298B412242692E0089B67F /* Movie.swift */; };
@@ -36,7 +38,6 @@
 		7E86E95B261CA50000C26B23 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86E95A261CA50000C26B23 /* FavoritesViewController.swift */; };
 		7E86E960261CA53800C26B23 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86E95F261CA53800C26B23 /* FavoritesViewModel.swift */; };
 		7EF7C1B7261C0A8C000E1E5F /* Caches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7C1B6261C0A8C000E1E5F /* Caches.swift */; };
-		7EF7C1CA261C1DB3000E1E5F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7C1C9261C1DB3000E1E5F /* Extensions.swift */; };
 		A52149248E28E166D1550B3C /* Pods_EmefarTMDbDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6852EEB64332EA0581457067 /* Pods_EmefarTMDbDemoTests.framework */; };
 		C340C43A86B182756E4E9B30 /* Pods_EmefarTMDbDemo_EmefarTMDbDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB8B1981BE582C9D575F079 /* Pods_EmefarTMDbDemo_EmefarTMDbDemoUITests.framework */; };
 		D37D3739387C4871840AF73A /* Pods_EmefarTMDbDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54678AB4CA24BBF86F79B0CC /* Pods_EmefarTMDbDemo.framework */; };
@@ -61,6 +62,11 @@
 
 /* Begin PBXFileReference section */
 		059AD1A4B1452D0E11C6F4AB /* Pods-MVVMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MVVMDemoTests/Pods-MVVMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		070DF62427E10A5B00DDD36E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		070DF62627E10A7600DDD36E /* Lottie+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lottie+Extensions.swift"; sourceTree = "<group>"; };
+		070DF62827E10AA100DDD36E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		070DF62A27E10AB700DDD36E /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		070DF62C27E10AD800DDD36E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		32C73238790C9F03C8F8E795 /* Pods-EmefarTMDbDemo-EmefarTMDbDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmefarTMDbDemo-EmefarTMDbDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-EmefarTMDbDemo-EmefarTMDbDemoUITests/Pods-EmefarTMDbDemo-EmefarTMDbDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C203FC7224B9F1C0074BF43 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		4C203FC8224B9F1C0074BF43 /* MovieViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieViewCell.xib; sourceTree = "<group>"; };
@@ -68,17 +74,12 @@
 		4C2315E6224A1E9C00F64090 /* AppURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppURL.swift; sourceTree = "<group>"; };
 		4C24FB3C223F934F00492D46 /* EmefarTMDbDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmefarTMDbDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C24FB3F223F934F00492D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C24FB41223F934F00492D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C24FB44223F934F00492D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C24FB46223F935600492D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C24FB49223F935600492D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C24FB4B223F935600492D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C24FB50223F935600492D46 /* EmefarTMDbDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmefarTMDbDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C24FB54223F935600492D46 /* EmefarTMDbDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmefarTMDbDemoTests.swift; sourceTree = "<group>"; };
-		4C24FB56223F935600492D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C24FB5B223F935600492D46 /* EmefarTMDbDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmefarTMDbDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C24FB5F223F935600492D46 /* EmefarTMDbDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmefarTMDbDemoUITests.swift; sourceTree = "<group>"; };
-		4C24FB61223F935600492D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C298B2422423C520089B67F /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		4C298B3B2242685D0089B67F /* MovieAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIService.swift; sourceTree = "<group>"; };
 		4C298B412242692E0089B67F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		7E86E95A261CA50000C26B23 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		7E86E95F261CA53800C26B23 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		7EF7C1B6261C0A8C000E1E5F /* Caches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caches.swift; sourceTree = "<group>"; };
-		7EF7C1C9261C1DB3000E1E5F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		92F8A72210599E64E0F9A822 /* Pods-EmefarTMDbDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmefarTMDbDemo.debug.xcconfig"; path = "Target Support Files/Pods-EmefarTMDbDemo/Pods-EmefarTMDbDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9E374382380DD13A1DED22C1 /* Pods-MVVMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMDemoTests/Pods-MVVMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F68EDFC7ABED8C642871817 /* Pods-MVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.release.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +141,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070DF62227E10A3C00DDD36E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7E86E955261C9B3900C26B23 /* Toast.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		070DF62327E10A4D00DDD36E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				070DF62427E10A5B00DDD36E /* String+Extensions.swift */,
+				070DF62627E10A7600DDD36E /* Lottie+Extensions.swift */,
+				070DF62827E10AA100DDD36E /* UIViewController+Extensions.swift */,
+				070DF62A27E10AB700DDD36E /* UIImageView+Extensions.swift */,
+				070DF62C27E10AD800DDD36E /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4C203FC6224B9F040074BF43 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				4C24FB3E223F934F00492D46 /* EmefarTMDbDemo */,
-				4C24FB53223F935600492D46 /* EmefarTMDbDemoTests */,
-				4C24FB5E223F935600492D46 /* EmefarTMDbDemoUITests */,
 				4C24FB3D223F934F00492D46 /* Products */,
 				DCB64E8C5909862071B8A62A /* Pods */,
 				73C0E374BB6C7581AE77EF4D /* Frameworks */,
@@ -185,17 +203,18 @@
 		4C24FB3E223F934F00492D46 /* EmefarTMDbDemo */ = {
 			isa = PBXGroup;
 			children = (
+				070DF62227E10A3C00DDD36E /* Util */,
 				7E5F3CFF261C80EC0001A34F /* Lottie */,
 				7E5F3CA3261C53D20001A34F /* Tabbar */,
 				4C203FC6224B9F040074BF43 /* Cell */,
 				4C2315E5224A1E7B00F64090 /* Constant */,
 				4C298B40224269140089B67F /* Model */,
 				4C298B3D2242688C0089B67F /* Helper */,
+				070DF62327E10A4D00DDD36E /* Extensions */,
 				4C298B2622423CE10089B67F /* Network */,
 				4C24FB6E223F93B200492D46 /* ViewModel */,
 				4C24FB6D223F93A200492D46 /* ViewController */,
 				4C24FB3F223F934F00492D46 /* AppDelegate.swift */,
-				4C24FB41223F934F00492D46 /* ViewController.swift */,
 				4C24FB43223F934F00492D46 /* Main.storyboard */,
 				4C24FB46223F935600492D46 /* Assets.xcassets */,
 				4C24FB48223F935600492D46 /* LaunchScreen.storyboard */,
@@ -203,24 +222,6 @@
 				7E5F3CB5261C571A0001A34F /* SceneDelegate.swift */,
 			);
 			path = EmefarTMDbDemo;
-			sourceTree = "<group>";
-		};
-		4C24FB53223F935600492D46 /* EmefarTMDbDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				4C24FB54223F935600492D46 /* EmefarTMDbDemoTests.swift */,
-				4C24FB56223F935600492D46 /* Info.plist */,
-			);
-			path = EmefarTMDbDemoTests;
-			sourceTree = "<group>";
-		};
-		4C24FB5E223F935600492D46 /* EmefarTMDbDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4C24FB5F223F935600492D46 /* EmefarTMDbDemoUITests.swift */,
-				4C24FB61223F935600492D46 /* Info.plist */,
-			);
-			path = EmefarTMDbDemoUITests;
 			sourceTree = "<group>";
 		};
 		4C24FB6D223F93A200492D46 /* ViewController */ = {
@@ -259,8 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				7EF7C1B6261C0A8C000E1E5F /* Caches.swift */,
-				7EF7C1C9261C1DB3000E1E5F /* Extensions.swift */,
-				7E86E955261C9B3900C26B23 /* Toast.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -387,7 +386,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1240;
-				ORGANIZATIONNAME = Emefar;
+				ORGANIZATIONNAME = "Mervan Şahinkaya";
 				TargetAttributes = {
 					4C24FB3B223F934F00492D46 = {
 						CreatedOnToolsVersion = 10.1;
@@ -562,22 +561,25 @@
 			files = (
 				7E86E94C261C8CDC00C26B23 /* LoginViewController.swift in Sources */,
 				4C203FCC224BA9DF0074BF43 /* MovieViewController.swift in Sources */,
+				070DF62727E10A7600DDD36E /* Lottie+Extensions.swift in Sources */,
 				7E5F3CA8261C543C0001A34F /* TabbarViewController.swift in Sources */,
+				070DF62927E10AA100DDD36E /* UIViewController+Extensions.swift in Sources */,
 				4C298B3C2242685D0089B67F /* MovieAPIService.swift in Sources */,
-				4C24FB42223F934F00492D46 /* ViewController.swift in Sources */,
 				7E5F3CB6261C571A0001A34F /* SceneDelegate.swift in Sources */,
 				7E5F3C97261C46B90001A34F /* MovieDetailViewController.swift in Sources */,
 				4C30446D22439DAE006FC449 /* Networking.swift in Sources */,
 				7E5F3CDB261C66680001A34F /* BaseItemCell.swift in Sources */,
+				070DF62B27E10AB700DDD36E /* UIImageView+Extensions.swift in Sources */,
 				7E5F3CD6261C64C00001A34F /* WatchlistViewController.swift in Sources */,
 				7EF7C1B7261C0A8C000E1E5F /* Caches.swift in Sources */,
 				7E5F3CE5261C77410001A34F /* WatchlistViewModel.swift in Sources */,
 				7E86E960261CA53800C26B23 /* FavoritesViewModel.swift in Sources */,
+				070DF62527E10A5B00DDD36E /* String+Extensions.swift in Sources */,
 				4C24FB40223F934F00492D46 /* AppDelegate.swift in Sources */,
-				7EF7C1CA261C1DB3000E1E5F /* Extensions.swift in Sources */,
 				4C203FC9224B9F1C0074BF43 /* MovieViewCell.swift in Sources */,
 				4C298B422242692E0089B67F /* Movie.swift in Sources */,
 				7E86E95B261CA50000C26B23 /* FavoritesViewController.swift in Sources */,
+				070DF62D27E10AD800DDD36E /* UITableView+Extensions.swift in Sources */,
 				4C298B2522423C520089B67F /* MovieViewModel.swift in Sources */,
 				7E86E956261C9B3900C26B23 /* Toast.swift in Sources */,
 				7E86E951261C8D2800C26B23 /* LoginViewModel.swift in Sources */,
@@ -589,7 +591,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C24FB55223F935600492D46 /* EmefarTMDbDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +598,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C24FB60223F935600492D46 /* EmefarTMDbDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,8 +2,8 @@
 //  FavoritesViewController.swift
 //  EmefarTMDbDemo
 //
-//  Created by Emefar on 6.04.2021.
-//  Copyright © 2021 Emefar. All rights reserved.
+//  Created by Mervan Şahinkaya on 15.03.2022.
+//  Copyright © 2022 Mervan Şahinkaya. All rights reserved.
 //
 
 import UIKit
